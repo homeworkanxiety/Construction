@@ -1,0 +1,61 @@
+html{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+body{
+    margin:0;
+    padding:0;
+}
+
+.nav > ul{
+    display: flex;
+    justify-content: space-between;
+    font-family: Roboto, sans-serif;
+    list-style-type: none;
+    background-color:#ade8f4;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+    align-items: center;
+    padding-left: 1rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+.navLeft{
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    gap: 1rem;
+    padding-right: 1rem;
+}
+.Brand{
+    font-family: "Offside", sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #00000a;
+    text-decoration: none;
+}
+.gallery{
+  display: flex;
+    flex-wrap: wrap;
+}
+
+img{
+    width: 100%;
+    height: auto;
+}
+.line_one, .line_two, .line_three{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1rem;
+    gap: 1rem;
+    }
+    .footer{
+    background-color: #ade8f4;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+}
