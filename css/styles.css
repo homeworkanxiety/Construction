@@ -8,7 +8,6 @@ body{
     padding:0;
 }
 p{
-    /* line-height: 40%; */
     margin: 0;
     padding: 0;
 }
@@ -35,6 +34,26 @@ p{
     padding: 0;
     gap: 1rem;
     padding-right: 1rem;
+    transition: color 0.3s ease;
+   
+}
+.contact{
+    margin-right: 1rem;
+}
+a:link{
+    text-decoration: none;
+    color:inherit;
+    display: inline-block;
+    transition: transform 0.2s ease-in-out;
+}
+a:visited{
+    color: gray;
+}
+a:hover{
+    color: green;
+    transform: scale(1.15);
+    font-weight: bold;
+    
 }
 .Brand{
     font-family: "Offside", sans-serif;
