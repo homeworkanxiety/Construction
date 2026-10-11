@@ -49,8 +49,6 @@ img{
     padding: 1rem;
     margin: 1rem 0;
     border-radius: 8px;
-    /* width: 300px;
-    height: 300px; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -92,6 +90,18 @@ a:hover{
     padding: 1rem;
     gap: 1rem;
     }
+.line_four{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1rem;
+    gap: 1rem;
+}
+.info{
+   width: 100%;
+   justify-content: center;
+   align-items: center;
+}
     .footer{
     background-color: #ade8f4;
     padding: 20px;
