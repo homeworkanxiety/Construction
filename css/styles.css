@@ -11,6 +11,7 @@ body{
 p{
     margin: 0;
     padding: 0;
+    margin-top: auto;
 }
 
 
@@ -37,6 +38,22 @@ p{
     padding-right: 1rem;
     transition: color 0.3s ease;
    
+}
+img{
+    max-width: 400px;
+  max-height: 400px;
+  object-fit: cover;
+}
+.card{
+    border: 1px solid #ccc;
+    padding: 1rem;
+    margin: 1rem 0;
+    border-radius: 8px;
+    /* width: 300px;
+    height: 300px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .contact{
     margin-right: 1rem;
@@ -68,10 +85,6 @@ a:hover{
     flex-wrap: wrap;
 }
 
-img{
-    width: 100%;
-    height: auto;
-}
 .line_one, .line_two, .line_three{
     display: flex;
     flex-direction: row;
@@ -105,12 +118,13 @@ img{
        
     }
 }
-/* }About US Styles */
+/* }About US Styles ***********************************************************************************************/
 .us_wrapper{
      display: flex;
   min-height: 100vh;
   flex-direction: column;
   justify-content: space-between;
+   font-family:'Open Sans', sans-serif;
 }
 .content{
     display: flex;
@@ -142,6 +156,7 @@ h2{
     height: 2px;
     background-color: green;
     margin: 0;
+    margin-top: 1rem;
 }
 .line_red{
     border: none;
@@ -149,6 +164,14 @@ h2{
     background-color: red;
     margin: 0;
 }
+.mission{
+    list-style-type: none;
+     display: inline-block; 
+  /* border: 1px dashed #4CAF50; */
+  box-shadow: inset 1px 1px 4px 5px rgb(0 0 0 / 20%);
+}
+
+
 @media (max-width: 768px) {
     .content{
         flex-direction: column;
