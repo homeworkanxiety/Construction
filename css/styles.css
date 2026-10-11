@@ -5,6 +5,12 @@ html, body{
     overflow-x: hidden;
     max-width: 100vw;
 }
+.overflow-wrapper {
+  width: 100%;
+  max-width: 100vw;
+  overflow-x: hidden; /* This works reliably inside a body child container */
+}
+
 body{
     margin:0;
     padding:0;
