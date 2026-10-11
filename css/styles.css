@@ -136,6 +136,11 @@ a:hover{
         gap: 1rem;
        
     }
+    img{
+        max-width: 300px;
+        max-height: 300px;
+        object-fit: cover;
+    }
 }
 /* }About US Styles ***********************************************************************************************/
 .us_wrapper{
