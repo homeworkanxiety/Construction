@@ -29,6 +29,7 @@ p{
     padding-left: 1rem;
     padding-top: 2rem;
     padding-bottom: 2rem;
+    overflow: clip;
 }
 .navLeft{
     display: flex;
