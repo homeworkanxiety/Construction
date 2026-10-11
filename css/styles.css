@@ -143,8 +143,8 @@ html, body {
     .Brand{
        align-self: flex-start;
     }
-    .footer{
-        justify-content: flex-start;
+    .footer > p{
+        text-align: left;
     }
 }
 /* }About US Styles ***********************************************************************************************/
