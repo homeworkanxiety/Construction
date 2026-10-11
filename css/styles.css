@@ -105,7 +105,9 @@ a:hover{
    margin: 0 0;   
 }
     .footer{
+    display: flex;
     background-color: #ade8f4;
+    justify-content: center;
     padding: 20px;
     text-align: center;
     width: 100%;
