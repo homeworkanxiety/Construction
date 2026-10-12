@@ -200,12 +200,10 @@ h2{
     background-color: red;
     margin: 0;
 }
-.mission{
-    list-style-type: none;
-     display: inline-block; 
-  /* border: 1px dashed #4CAF50; */
-  box-shadow: inset 1px 1px 4px 5px rgb(0 0 0 / 20%);
-}
+/* .mission{
+    list-style-type: "🔧";
+   
+} */
 
 
 @media (max-width: 768px) {
@@ -221,7 +219,7 @@ h2{
   flex-direction: column;
   justify-content: space-between;
    font-family:'Open Sans', sans-serif;
-   background-color: #ead215;
+   background-color:#ade8f4;
 }
 
 .s_content{
