@@ -213,3 +213,11 @@ h2{
         flex-direction: column;
     }
 }
+
+/* Services Styles ***********************************************************************************************/
+.s_content{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem;
+}
